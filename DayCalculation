@@ -1,6 +1,6 @@
 public class DayCalculation {
     public static void main(String[] args) {
-        int currentDay = 4; // 周四
+        int currentDay = 4; 
         int daysToAdd = 100;
         int futureDay = (currentDay + daysToAdd) % 7;
         switch (futureDay) {
